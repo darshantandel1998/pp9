@@ -2,19 +2,15 @@ package lecture_001_Basic;
 
 import java.util.*;
 
-public class l004B {
+public class l004C {
 
     public static Scanner scn = new Scanner(System.in);
 
-    public static void multiplicationTable(int n) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(String.format("%2d x %2d = %2d", n, i, n * i));
-        }
-    }
-
     public static void multiplicationTableInRangle(int length) {
-        for (int n = 1; n <= length; n++) {
-            multiplicationTable(n);
+        for (int i = 1; i <= 10; i++) {
+            for (int n = 1; n <= length; n++) {
+                System.out.print(String.format("%2d x %2d = %2d\t", n, i, n * i));
+            }
             System.out.println();
         }
     }
