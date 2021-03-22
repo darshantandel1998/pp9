@@ -24,10 +24,11 @@ public class l004 {
         int mul = 1;
         int div = 1;
         for (int i = 1; i <= length; i++) {
-            if (i <= k)
+            if (i <= k) {
                 div *= 10;
-            else
+            } else {
                 mul *= 10;
+            }
         }
         return ((n % div * mul) + (n / div));
     }

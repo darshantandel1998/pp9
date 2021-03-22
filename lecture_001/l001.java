@@ -1,4 +1,4 @@
-package lecture_001_Basic;
+package lecture_001;
 
 public class l001 {
 

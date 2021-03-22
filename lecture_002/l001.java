@@ -1,8 +1,8 @@
-package lecture_001_Basic;
+package lecture_002;
 
 import java.util.*;
 
-public class l005 {
+public class l001 {
 
     public static Scanner scn = new Scanner(System.in);
 
