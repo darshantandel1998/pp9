@@ -25,4 +25,5 @@ public class l005 {
     public static void main(String[] args) {
         solve();
     }
+
 }

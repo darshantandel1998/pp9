@@ -38,4 +38,5 @@ public class l006 {
     public static void main(String[] args) {
         solve();
     }
+
 }

@@ -39,4 +39,5 @@ public class l0010 {
     public static void main(String[] args) {
         solve();
     }
+
 }

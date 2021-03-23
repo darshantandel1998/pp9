@@ -36,4 +36,5 @@ public class l005C {
     public static void main(String[] args) {
         solve();
     }
+
 }

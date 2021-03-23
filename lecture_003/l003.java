@@ -21,4 +21,5 @@ public class l003 {
     public static void main(String[] args) {
         solve();
     }
+
 }

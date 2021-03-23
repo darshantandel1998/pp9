@@ -30,4 +30,5 @@ public class l005B {
     public static void main(String[] args) {
         solve();
     }
+
 }
