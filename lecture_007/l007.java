@@ -8,7 +8,7 @@ public class l007 {
 
     public static int getSumFromAnyBase(int base, int num1, int num2) {
         int sum = 0, c = 0, mul = 1;
-        while (num1 > 0 || num2 > 0) {
+        while (num1 > 0 || num2 > 0 || c > 0) {
             int singleSum = c + (num1 % 10) + (num2 % 10);
             sum += (singleSum % base) * mul;
             c = singleSum / base;
@@ -16,7 +16,6 @@ public class l007 {
             num1 /= 10;
             num2 /= 10;
         }
-        sum += c * mul;
         return sum;
     }
 
